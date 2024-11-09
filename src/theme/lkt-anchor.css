@@ -1,0 +1,25 @@
+:root {
+    --lkt-anchor-color: #000000;
+    --lkt-anchor-color-active: var(--dark-2);
+    --lkt-anchor-color-hover: var(--dark-2);
+    --lkt-anchor-font-family: var(--main-font);
+    --lkt-anchor-font-size: 15px;
+    --lkt-anchor-font-weight: 400;
+    --lkt-anchor-letter-spacing: -0.15px;
+    --lkt-anchor-line-height: 1.425;
+    --lkt-anchor-text-decoration: underline;
+    --lkt-anchor-text-decoration-active: underline;
+    --lkt-anchor-text-decoration-hover: underline;
+    --lkt-anchor-transition: all linear 100ms;
+    --lkt-anchor-height: auto;
+
+    --lkt-anchor-img-max-width: 50px;
+    --lkt-anchor-img-max-height: 50px;
+
+    --lkt-anchor-gap: 10px;
+    --lkt-anchor-padding: 0 25px;
+}
+
+.lkt-anchor:visited {
+    color: var(--lkt-anchor-color);
+}

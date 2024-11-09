@@ -1,0 +1,57 @@
+:root {
+    --lkt-box-flex-direction: column;
+
+    /** Font */
+    --lkt-box-font-family: var(--main-font);
+    --lkt-box-font-size: 16px;
+    --lkt-box-font-weight: 300;
+    --lkt-box-line-height: 1.425;
+    --lkt-box-text-align: left;
+
+    /** Sizing */
+    --lkt-box-min-width: 100%;
+    --lkt-box-min-height: 35px;
+    --lkt-box-padding: 15px;
+    --lkt-box-gap: 5px;
+
+    /** Border */
+    --lkt-box-border-radius: 4px;
+    --lkt-box-border-width: 1px;
+    --lkt-box-border-style: solid;
+
+    /** Colors */
+    --lkt-box-color: var(--dark-1);
+    --lkt-box-bg: var(--light-2);
+    --lkt-box-border-color: var(--light-2);
+
+    /** Effects */
+    --lkt-box-shadow: none;
+    --lkt-box-transition: all linear 100ms;
+
+    /** Header */
+    --lkt-box-header-justify-content: flex-start;
+    --lkt-box-header-font-weight: 400;
+    --lkt-box-header-padding: 0;
+    --lkt-box-header-border-radius: 0;
+    --lkt-box-header-bg: transparent;
+    --lkt-box-header-color: var(--dark-1);
+    --lkt-box-header-gap: 15px;
+}
+
+.lkt-box .lkt-box {
+
+    /** Colors */
+    --lkt-box-color: #000000;
+    --lkt-box-bg: var(--light-1-100);
+    --lkt-box-border-color: var(--light-1);
+}
+
+.login-box {
+    --lkt-box-header-justify-content: center;
+    --lkt-box-header-font-weight: 600;
+    --lkt-box-gap: 25px;
+    --lkt-box-padding: 25px;
+    --lkt-box-bg: #ffffff;
+    --lkt-box-header-color: #444444;
+    --lkt-box-border-color: var(--medium-2);
+}

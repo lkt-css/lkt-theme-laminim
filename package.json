@@ -1,0 +1,52 @@
+{
+  "name": "lkt-theme-laminim",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "lkt",
+    "lkt-web-tech",
+    "ts",
+    "typescript",
+    "vue",
+    "vue3",
+    "js",
+    "javascript",
+    "ui"
+  ],
+  "type": "module",
+  "module": "./dist/theme.css",
+  "exports": {
+    ".": {
+      "import": "./dist/theme.css"
+    },
+    "./styles": "./dist/theme.css"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "build": "node_modules/sass/sass.js src/theme.scss dist/theme.css --style=compressed"
+  },
+  "author": "Antonio Ibáñez",
+  "devDependencies": {
+    "@babel/types": "^7.23.6",
+    "@types/node": "^20.11.19",
+    "@types/rollup": "^0.54.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "rollup": "^4.9.6",
+    "sass": "^1.80.6",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.3",
+    "vue": "^3.3.0",
+    "vue-tsc": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
+}

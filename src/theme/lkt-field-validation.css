@@ -1,0 +1,12 @@
+:root {
+    --lkt-field-validation-font-family: var(--main-font);
+    --lkt-field-validation-font-size: 12px;
+    --lkt-field-validation-font-weight: 300;
+    --lkt-field-validation-color: #F9847D;
+}
+
+.lkt-field-validation-info {
+    position: absolute;
+    top: 100%;
+    margin-top: 6px;
+}

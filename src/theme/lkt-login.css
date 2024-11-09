@@ -1,0 +1,8 @@
+:root {
+    --lkt-login-gap: 60px;
+    --lkt-login-max-width: 1280px;
+
+    --lkt-login-form-min-width: initial;
+    --lkt-login-form-max-width: 100%;
+    --lkt-login-form-width: 460px;
+}

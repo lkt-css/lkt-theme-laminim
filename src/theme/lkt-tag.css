@@ -1,0 +1,54 @@
+:root {
+    --lkt-tag-gap: 10px;
+    --lkt-tag-padding: 5px 15px;
+    --lkt-tag-min-width: initial;
+    --lkt-tag-max-width: initial;
+    --lkt-tag-width: initial;
+    --lkt-tag-bg: transparent;
+    --lkt-tag-border-radius: 50px;
+    --lkt-tag-border-width: 1px;
+    --lkt-tag-border-style: solid;
+    --lkt-tag-border-color: var(--medium-1);
+
+
+    --lkt-tag-font-size: 14px;
+    --lkt-tag-font-weight: 400;
+    --lkt-tag-bg-hover: var(--medium-1);
+    --lkt-tag-color: var(--dark-1);
+    --lkt-tag-color-hover: var(--light-2);
+    --lkt-tag-border-color-hover: var(--medium-1);
+}
+
+.lkt-tag {
+    transition: all linear 300ms;
+}
+
+.lkt-tag.is-active {
+    --lkt-tag-bg: #A7D7C5;
+    --lkt-tag-border-color: #A7D7C5;
+    --lkt-tag-bg-hover: #A7D7C5;
+    --lkt-tag-border-color-hover: #A7D7C5;
+    --lkt-tag-color: #ffffff;
+    --lkt-tag-color-hover: #ffffff;
+    --lkt-tag-font-weight: 500;
+}
+
+.lkt-tag.is-banned {
+    --lkt-tag-bg: #FFB0B0;
+    --lkt-tag-border-color: #FFB0B0;
+    --lkt-tag-bg-hover: #FFB0B0;
+    --lkt-tag-border-color-hover: #FFB0B0;
+    --lkt-tag-color: #ffffff;
+    --lkt-tag-color-hover: #ffffff;
+    --lkt-tag-font-weight: 500;
+}
+
+.lkt-tag.is-inactive {
+    --lkt-tag-bg: #FFD79B;
+    --lkt-tag-border-color: #FFD79B;
+    --lkt-tag-bg-hover: #FFD79B;
+    --lkt-tag-border-color-hover: #FFD79B;
+    --lkt-tag-color: #ffffff;
+    --lkt-tag-color-hover: #ffffff;
+    --lkt-tag-font-weight: 500;
+}

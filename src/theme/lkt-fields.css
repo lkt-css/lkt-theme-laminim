@@ -1,0 +1,121 @@
+:root {
+    --lkt-field-color: var(--medium-1);
+
+    --lkt-field-font-size: 16px;
+    --lkt-field-font-weight: 400;
+
+    --lkt-field-right-state: 5px;
+    --lkt-field-gap-state: 10px;
+    --lkt-field-font-size-state: 40px;
+
+
+    --lkt-field-font-size-label: 14px;
+    --lkt-field-font-weight-label: 600;
+    --lkt-field-line-height-label: 17px;
+
+
+    --lkt-field-font-size-input: 16px;
+    --lkt-field-font-weight-input: 400;
+    --lkt-field-input-height: 40px;
+    --lkt-field-line-height-input: 40px;
+    --lkt-field-padding-input: 0 10px;
+    --lkt-field-padding-textarea: 10px;
+    --lkt-field-transition-input: all linear 150ms;
+    --lkt-field-border-radius-input: 8px;
+    --lkt-field-bg-input: transparent;
+    --lkt-field-bg-input-disabled: transparent;
+
+    --lkt-field-gap: 15px;
+    --lkt-field-padding-option: 12px;
+
+    --lkt-field-bg: #ffffff;
+    --lkt-field-bg-invalid: transparent;
+    --lkt-field-bg-valid: transparent;
+
+    --lkt-field-bg-opt-active: var(--light-1-400);
+    --lkt-field-bg-opt-even: var(--light-1-100);
+    --lkt-field-bg-opt-even-hover: rgba(226, 255, 250, .9);
+    --lkt-field-bg-opt-odd: var(--light-2);
+    --lkt-field-bg-opt-odd-hover: rgba(226, 255, 250, .9);
+
+    --lkt-field-color-opt-active: var(--dark-2);
+    --lkt-field-color-opt-odd-hover: var(--dark-2);
+    --lkt-field-color-opt-even-hover: var(--dark-2);
+    --lkt-field-max-height-dropdown: 200px;
+
+    --lkt-field-border-width: 1px;
+    --lkt-field-border-width-valid: 1px;
+    --lkt-field-border-width-invalid: 1px;
+    --lkt-field-border-style: solid;
+    --lkt-field-border-color: var(--medium-1);
+    --lkt-field-border-color-focus: var(--medium-1);
+    --lkt-field-border-color-disabled: #dddddd;
+    --lkt-field-border-color-invalid: #F9847D;
+    --lkt-field-border-color-valid: #307f00;
+    --lkt-field-border-radius: 8px;
+
+
+    --lkt-field-shadow: none;
+    --lkt-field-shadow-focus: 0 0 0 1px var(--medium-1);
+    --lkt-field-shadow-invalid: 0 0 0 1px #F9847D;
+    --lkt-field-shadow-valid: 0 0 0 1px #307f00;
+
+    --lkt-field-margin-label: 5px 0;
+
+
+    --lkt-field-tag-border-width: 1px;
+    --lkt-field-tag-border-style: solid;
+    --lkt-field-tag-border-color: #444;
+    --lkt-field-tag-border-radius: 0;
+    --lkt-field-tag-padding: 5px;
+    --lkt-field-tag-bg: #fff;
+    --lkt-field-tag-color: #444;
+    --lkt-field-tag-font-weight: 600;
+
+
+
+
+
+    --lkt-field-bg-switch-off: #DEE7EE;
+    --lkt-field-bg-switch-on: var(--light-1);
+    --lkt-field-bg-switch-disabled: #cacaca;
+
+    --lkt-field-bg-switch-dot-off: #ffffff;
+    --lkt-field-bg-switch-dot-on: #ffffff;
+    --lkt-field-bg-switch-dot-disabled: #ffffff;
+
+    --lkt-field-border-radius-switch: 100%;
+
+
+    --lkt-field-switch-width: 30px;
+    --lkt-field-switch-height: 16px;
+    --lkt-field-switch-dot-size: 12px;
+    --lkt-field-switch-dot-left-start: 2px;
+    --lkt-field-switch-dot-left-end: 16px;
+
+
+    --lkt-field--html-floating-gap: 1px;
+}
+
+.is-mandatory-field label:after {
+    color: #CA3A31;
+}
+.sun-editor {
+    width: 100% !important;
+    border-radius: var(--lkt-field-border-radius-input);
+}
+
+.sun-editor .se-toolbar {
+    border-top-left-radius: var(--lkt-field-border-radius-input);
+    border-top-right-radius: var(--lkt-field-border-radius-input);
+}
+
+.sun-editor .se-wrapper .se-wrapper-code {
+    background-color: var(--dark-2);
+    color: var(--medium-2-100);
+}
+
+.sun-editor .se-resizing-bar {
+    border-bottom-left-radius: var(--lkt-field-border-radius-input);
+    border-bottom-right-radius: var(--lkt-field-border-radius-input);
+}

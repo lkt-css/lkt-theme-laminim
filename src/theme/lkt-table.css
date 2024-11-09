@@ -1,0 +1,103 @@
+:root {
+    --lkt-table-border-collapse: separate;
+    --lkt-table-border-spacing: 0 28px;
+    --lkt-table-page-gap: 15px;
+
+    --lkt-table-width: 100%;
+    --lkt-table-font-family: var(--main-font);
+    --lkt-table-font-family-header: var(--main-font);
+
+    --lkt-table-border-radius: 5px;
+    --lkt-table-text-align: left;
+
+    --lkt-table-padding-row: 28px;
+    --lkt-table-padding-header: 28px 28px 0;
+
+    --lkt-table-font-size-row: 16px;
+    --lkt-table-color-row: var(--dark-2);
+    --lkt-table-bg-header: transparent;
+    --lkt-table-bg-row: var(--light-1-100);
+    --lkt-table-bg-row-odd: var(--light-1-100);
+
+    --lkt-table-font-family-sort-icon: Verdana, Arial, Helvetica, sans-serif;
+    --lkt-table-font-size-sort-icon: 11px;
+
+    --lkt-table-sort-icon-content-asc: '';
+    --lkt-table-sort-icon-content-desc: '';
+
+    --lkt-table-width-drag: 20px;
+    --lkt-table-border-sortable-chosen: 3px dashed #cccccc;
+    --lkt-table-bg-sortable-chosen-ghost: #aaaaaa;
+
+    --lkt-table-gap-buttons: 15px;
+    --lkt-table-width-col-drop: auto;
+    --lkt-table-text-align-col-drop: right;
+}
+
+.lkt-table tr {
+    border: 1px solid var(--medium-1-900);
+}
+
+.lkt-table td {
+    padding: 28px 14px;
+    border-top: 1px solid var(--medium-1-900);
+    border-bottom: 1px solid var(--medium-1-900);
+}
+
+.lkt-table td:first-child {
+    border-left: 1px solid var(--medium-1-900);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.lkt-table td:last-child {
+    border-right: 1px solid var(--medium-1-900);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.lkt-table td.lkt-table-col-edit,
+.lkt-table td.lkt-table-col-drop {
+    text-align: right;
+}
+
+.lkt-table .lkt-anchor {
+    --lkt-anchor-padding: 0;
+}
+
+.lmm-mod-bk {
+    --lkt-table-border-collapse: separate;
+    --lkt-table-border-spacing: 0;
+
+    --lkt-table-font-size-row: 10px;
+
+    --lkt-table-padding-row: 10px;
+    --lkt-table-padding-header: 10px 10px 0;
+}
+
+.lmm-mod-bk .lkt-table td {
+    border: none;
+}
+
+.lkt-accordion .lkt-table {
+    --lkt-table-padding-row: 10px;
+    --lkt-table-border-spacing: 0 10px;
+    --lkt-table-padding-header: 10px 10px 0;
+}
+
+/** Grid mode */
+/*.lkt-table table {*/
+/*    display: grid;*/
+/*}*/
+
+/*.lkt-table td {*/
+/*    width: 100%;*/
+/*}*/
+
+.lkt-table {
+    overflow: auto;
+}
+
+.lkt-accordion .lkt-table-page-buttons {
+    position: static;
+}

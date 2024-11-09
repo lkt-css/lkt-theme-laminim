@@ -1,0 +1,14 @@
+:root {
+    --lkt-item-crud-gap: 15px;
+    --lkt-item-crud-gap-buttons: 15px;
+}
+
+.lkt-item-crud_header {
+    display: flex;
+    align-items: center;
+}
+
+.lkt-item-crud_header .lkt-anchor {
+    --lkt-anchor-padding: 0 10px 0 0;
+    --lkt-anchor-font-size: 22px;
+}

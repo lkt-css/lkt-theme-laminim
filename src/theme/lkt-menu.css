@@ -1,0 +1,79 @@
+:root {
+    --lkt-menu-font-family: var(--secondary-font);
+    --lkt-menu-font-size: 20px;
+    --lkt-menu-font-weight: 400;
+    --lkt-menu-line-height: 1;
+    --lkt-menu-text-align: left;
+    --lkt-menu-text-decoration: none;
+    --lkt-menu-text-decoration-hover: none;
+
+    --lkt-menu-width: 100%;
+    --lkt-menu-min-width: 0;
+    --lkt-menu-max-width: initial;
+    --lkt-menu-min-height: 0;
+    --lkt-menu-padding: 50px 0;
+    --lkt-menu-gap: 10px;
+    --lkt-menu-gap-entries: 10px;
+
+    --lkt-menu-bg: transparent;
+    --lkt-menu-color-toggle: #444444;
+
+    --lkt-menu-padding-entry: 0;
+    --lkt-menu-padding-text: 0 0 0 30px;
+    --lkt-menu-padding-text-with-icon: 0;
+    --lkt-menu-padding-text-without-icon: 0;
+
+    --lkt-menu-padding-children: 0 0 0 20px;
+
+    --lkt-menu-bg-outside: rgba(255, 255, 255, 0.75);
+}
+
+.lkt-menu {
+    overflow-y: auto;
+}
+
+.lkt-menu .lkt-anchor {
+    --lkt-anchor-align-items: center;
+    --lkt-anchor-justify-content: flex-start;
+    --lkt-anchor-text-align: center;
+
+    --lkt-anchor-color: #F9F8EB;
+    --lkt-anchor-color-active: #F9F8EB;
+    --lkt-anchor-color-hover: #F9F8EB;
+    --lkt-anchor-font-family: var(--secondary-font);
+    --lkt-anchor-font-size: 24px;
+    --lkt-anchor-font-weight: 600;
+    --lkt-anchor-letter-spacing: -0.15px;
+    --lkt-anchor-line-height: 1.425;
+    --lkt-anchor-text-decoration: none;
+    --lkt-anchor-text-decoration-active: underline;
+    --lkt-anchor-text-decoration-hover: underline;
+    --lkt-anchor-transition: all linear 100ms;
+    --lkt-anchor-width: 100%;
+    --lkt-anchor-height: 44px;
+
+    --lkt-anchor-img-max-width: 50px;
+    --lkt-anchor-img-max-height: 50px;
+
+    --lkt-anchor-gap: 10px;
+    --lkt-anchor-padding: 0 25px;
+}
+
+.lkt-menu .lkt-anchor:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+.lkt-menu .lkt-anchor.lkt-anchor-active {
+    background: rgba(167, 215, 197, 0.3);
+}
+
+.lkt-menu-entry-icon {
+    font-size: 1.2em;
+}
+
+.lkt-menu-entry-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}

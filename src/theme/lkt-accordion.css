@@ -1,0 +1,57 @@
+:root {
+    /** Font */
+    --lkt-accordion-font-family: var(--main-font);
+    --lkt-accordion-font-size: 16px;
+    --lkt-accordion-font-weight: 300;
+    --lkt-accordion-line-height: 1.425;
+    --lkt-accordion-text-align: left;
+
+    /** Sizing */
+    --lkt-accordion-min-width: 100%;
+    --lkt-accordion-min-height: 35px;
+    --lkt-accordion-padding: 0;
+    --lkt-accordion-header-padding: 15px;
+    --lkt-accordion-content-padding: 15px;
+    --lkt-accordion-gap: 0;
+
+    /** Border */
+    --lkt-accordion-border-radius: 4px;
+    --lkt-accordion-header-border-radius: 4px;
+    --lkt-accordion-content-border-radius: 4px;
+    --lkt-accordion-border-width: 1px;
+    --lkt-accordion-border-style: solid;
+
+    /** Colors */
+    --lkt-accordion-color: var(--dark-1);
+    --lkt-accordion-bg: var(--light-2);
+    --lkt-accordion-header-bg: var(--light-2);
+    --lkt-accordion-header-gap: 15px;
+    --lkt-accordion-content-bg: var(--light-2);
+    --lkt-accordion-border-color: var(--light-2);
+
+    /** Effects */
+    --lkt-accordion-shadow: none;
+    --lkt-accordion-transition: all linear 100ms;
+}
+
+.lkt-accordion .lkt-box {
+    --lkt-box-color: #000000;
+    --lkt-box-bg: var(--light-1-100);
+    --lkt-box-border-color: var(--light-1);
+}
+
+.lkt-accordion .lkt-accordion {
+    --lkt-accordion-color: #000000;
+    --lkt-accordion-bg: var(--light-1-100);
+    --lkt-accordion-header-bg: var(--light-1-100);
+    --lkt-accordion-content-bg: var(--light-1-100);
+    --lkt-accordion-border-color: var(--light-1);
+}
+
+.lkt-accordion > .lkt-accordion-header {
+    border-bottom: 1px solid var(--dark-1);
+}
+
+.lkt-accordion .lkt-accordion-buttons {
+    margin-left: auto;
+}

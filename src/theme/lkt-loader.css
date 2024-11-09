@@ -1,0 +1,32 @@
+:root {
+    --lkt-loader-outer-size: 80px;
+    --lkt-loader-inner-size: 64px;
+    --lkt-spinner-outer-size: 25px;
+    --lkt-spinner-inner-size: 25px;
+
+    /** Border */
+    --lkt-loader-border-radius: 50%;
+    --lkt-loader-border-width: 6px;
+    --lkt-loader-border-style: solid;
+
+    /** Colors */
+    --lkt-loader-color: var(--dark-2);
+    --lkt-spinner-color: var(--dark-2);
+
+    /** Effects */
+    --lkt-loader-animation-duration: 1.2s;
+    --lkt-loader-animation-function: linear;
+}
+
+.lkt-loader-container {
+    display: flex;
+    justify-content: center;
+}
+
+#app > .lkt-loader-container {
+    height: 100%;
+}
+
+.lkt-field__select-dropdown .lkt-loader-container {
+    padding: 40px;
+}

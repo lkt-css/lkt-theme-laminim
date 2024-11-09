@@ -1,0 +1,57 @@
+:root {
+    --main-font:  "Montserrat", sans-serif;;
+    --secondary-font:  Raleway, sans-serif;
+
+    --text-font-size: 16px;
+
+    --dark-1: #0C2233;
+    --dark-2: #083D56;
+    --medium-1: #0E5F76;
+    --medium-2: #5C8D89;
+    --light-1: #A7D7C5;
+    --light-2: #F9F8EB;
+
+    --dark-1-1000: #1B3C55;
+    --dark-1-900: #305877;
+    --dark-1-800: #4B7799;
+    --dark-1-700: #6C98BB;
+    --dark-1-600: #92BCDD;
+    --dark-1-500: #BEE2FF;
+    --dark-1-400: #CCE9FF;
+    --dark-1-300: #DBEFFF;
+    --dark-1-200: #EAF6FF;
+    --dark-1-100: #F8FCFF;
+
+    --medium-1-1000: #034254;
+    --medium-1-900: #0E5F76;
+    --medium-1-800: #1E7D98;
+    --medium-1-700: #349CBA;
+    --medium-1-600: #4FBDDC;
+    --medium-1-500: #70DFFE;
+    --medium-1-400: #90E6FF;
+    --medium-1-300: #B0EDFF;
+    --medium-1-200: #D0F4FF;
+    --medium-1-100: #F0FCFF;
+
+    --medium-2-1000: #26403E;
+    --medium-2-900: #375A57;
+    --medium-2-800: #497370;
+    --medium-2-700: #5C8D89;
+    --medium-2-600: #70A6A2;
+    --medium-2-500: #86C0BB;
+    --medium-2-400: #9DD9D5;
+    --medium-2-300: #B4F3EE;
+    --medium-2-200: #D6FAF7;
+    --medium-2-100: #F8FFFE;
+
+    --light-1-1000: #293E36;
+    --light-1-900: #3B574D;
+    --light-1-800: #4F7164;
+    --light-1-700: #638A7C;
+    --light-1-600: #79A494;
+    --light-1-500: #8FBDAC;
+    --light-1-400: #A7D7C5;
+    --light-1-300: #C0F0DE;
+    --light-1-200: #DAF5EB;
+    --light-1-100: #F5FAF8;
+}
