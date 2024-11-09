@@ -14,12 +14,12 @@
     "ui"
   ],
   "type": "module",
-  "module": "./dist/theme.css",
+  "module": "dist/styles.css",
   "exports": {
     ".": {
-      "import": "./dist/theme.css"
+      "import": "./dist/styles.css"
     },
-    "./styles": "./dist/theme.css"
+    "./styles": "./dist/styles.css"
   },
   "files": [
     "dist/*",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "sideEffects": false,
   "scripts": {
-    "build": "node_modules/sass/sass.js src/theme.scss dist/theme.css --style=compressed"
+    "build": "node_modules/sass/sass.js src/styles.scss dist/styles.css --style=compressed"
   },
   "author": "Antonio Ibáñez",
   "devDependencies": {
